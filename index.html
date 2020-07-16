@@ -3,36 +3,37 @@
 	<head>
 		<link rel="stylesheet" type="text/css" media="all" href="static/bulma.min.css" as="style">
 		<link rel="stylesheet" type="text/css" media="all" href="static/base.css" as="style">
-		<title>Max Miller | Software Developer &#8226 Entrepreneur &#8226 Technologist</title>
+		<title>Max Miller | Homepage</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body class="has-background-dark">
 		<main>
-			<section class="hero is-medium is-primary is-bold" id='header'>
-				<div class="section">
-					<div class="image-cropper">
-						<img class="is-rounded" src="portrait_2.jpg"/>
-					</div>
-					<br />
-					<h1 class="title is-1 has-text-centered has-text-white">Max Miller</h1>
-					<hr class="container" />
-					<br>
-					<div class="">
-						<h2 class="title is-3">Software Developer &#8226 Entrepreneur &#8226</h2>
+			<div class="section">
+				<div class="container">
+					<div class="column is-half is-offset-one-quarter">
+						<div class="card">
+						  <div class="card-image">
+						    <figure class="image is-1by1" style="overflow:hidden;">
+						      <img src="portrait_2.jpg" alt="Headshot">
+						    </figure>
+						  </div>
+						  <div class="card-content">
+						    <div class="content">
+									<p class="title">Max Miller</p>
+									<p class="subtitle">Software Developer • Aspiring Writer • Science Enthusiast</p>
+						    </div>
+						  </div>
+							<footer class="card-footer">
+						    <p class="card-footer-item">
+						      <span >
+						        <a class="button is-warning" href="https://www.notion.so/Max-Miller-372b570cc24c4102a16a3a568145248a">View Full Site on Notion</a>
+						      </span>
+						    </p>
+						  </footer>
+						</div>
 					</div>
 				</div>
-			</section>
-			<br />
-			<div class="section has-text-centered" id='about'>
-				<a class="button is-primary" href="https://www.notion.so/Max-Miller-372b570cc24c4102a16a3a568145248a">View Personal Site on Notion</a>
 			</div>
 		</main>
-		<script type="text/javascript">
-			window.onload = function() {
-				let header = document.getElementById('header');
-				let navbar = document.getElementById('navbar');
-				header.style.padding = navbar.offsetHeight + 'px 0 0 0';
-			};
-		</script>
 	</body>
 </html>
